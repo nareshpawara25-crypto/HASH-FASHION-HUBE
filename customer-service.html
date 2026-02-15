@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Service - HASH.FASHION.HUBE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>HASH.FASHION.HUBE</h1>
+</header>
+
+<section class="customer-container">
+
+    <h2>Customer Support</h2>
+    <p>We are here to help you 24/7</p>
+
+    <div class="contact-info">
+        <p><strong>Email:</strong> support@hashfashionhube.com</p>
+        <p><strong>Phone:</strong> +91 9876543210</p>
+        <p><strong>Address:</strong> Maharashtra, India</p>
+    </div>
+
+    <h3>Contact Us</h3>
+
+    <form onsubmit="submitForm(event)">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <h3>Frequently Asked Questions</h3>
+
+    <div class="faq">
+        <p><strong>Q: How long does delivery take?</strong></p>
+        <p>A: Delivery takes 3-7 working days.</p>
+
+        <p><strong>Q: Can I return a product?</strong></p>
+        <p>A: Yes, within 7 days of delivery.</p>
+
+        <p><strong>Q: Do you offer Cash on Delivery?</strong></p>
+        <p>A: Yes, COD is available.</p>
+    </div>
+
+</section>
+
+<script>
+function submitForm(e){
+    e.preventDefault();
+    alert("Thank you! Our team will contact you soon.");
+}
+</script>
+
+</body>
+</html>
